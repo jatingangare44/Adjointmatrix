@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matrix Adjoint Finder</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="logo.png" type="image/x-icon">
+</head>
+<body>
+    <div class="container">
+        <h1>Matrix Adjoint Finder</h1>
+        <div class="input-container">
+            <label for="numRows">Enter the number of rows:</label>
+            <input type="number" id="numRows" min="1" value="2">
+            <label for="numCols">Enter the number of columns:</label>
+            <input type="number" id="numCols" min="1" value="2">
+        </div>
+        <button id="generateMatrixButton">Generate Matrix</button>
+        
+        <div id="matrixInputContainer" style="display: none;">
+            <label for="matrixInput">Enter the matrix values (comma-separated):</label>
+            <textarea id="matrixInput" rows="5" cols="30"></textarea>
+        </div>
+        <button id="calculateButton" style="display: none;">Calculate Adjoint</button>
+        <div id="result"></div>
+        <button id="clearButton" style="display: none;">Clear</button>
+    </div>
+    <button id="downloadButton" style="display: none;">Download Input and Result</button>
+    <a href="ADJOINT_OF_MATRIX_CALCULATOR(ABOUT).pdf" download ><button>Download PDF</button></a>
+
+    <footer>
+        <p>&copy; 2023 Matrix Adjoint Finder</p>
+        <p>Contact Me:</p>
+        <ul>
+            <li><a href="https://www.instagram.com/jatin_gangare" target="_blank"><img src="instagram-icon.png" alt="Instagram"></a></li>
+            <li><a href="https://api.whatsapp.com/send?phone=7208771910" target="_blank"><img src="whatsapp-icon.png" alt="WhatsApp"></a></li>
+            <li><a href="mailto:jating22@student.mes.ac.in"><img src="email-icon.png" alt="Email"></a></li>
+        </ul>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
